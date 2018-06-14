@@ -1,0 +1,3 @@
+None. =) If you find any bugs in this program, please email me at ryan@ryguy40.com. I want to know about it. lol
+
+There is, however, a point that does not check for proper input. When being prompted for a filename in the loadgame mode, it does not check to make sure the file exists. So, if you try to load a game from a file that doesn't exist, you get a segmentation fault. I don't necessarily consider this a bug, though. Every other instance of the program (main screen, playing, etc) checks for proper input.
